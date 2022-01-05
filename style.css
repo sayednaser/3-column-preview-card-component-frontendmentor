@@ -28,11 +28,28 @@ body {
 .u-margin-big {
 }
 .u-margin-medium {
+
 }
 .u-margin-small {
+    margin-bottom: 2.8rem;
+}
+
+.card-container {
+    padding: 8rem 2.4rem;
+    
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.card-col {
+    padding: 4.8rem;
 }
 
 .col-1 {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
   background-color: hsl(31, 77%, 52%);
 }
 
@@ -42,12 +59,19 @@ body {
 
 .col-3 {
   background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.card-col-logo {
+    display: block;
 }
 
 .card-col-heading {
   font-family: "Big Shoulders Display", cursive;
   font-size: 4rem;
   font-weight: 700;
+  line-height: normal;
   text-transform: uppercase;
   color: hsl(0, 0%, 95%);
 }
@@ -58,6 +82,17 @@ body {
 
   background-color: hsl(0, 0%, 95%);
   width: fit-content;
-  padding: 1rem 4rem;
+  padding: 0 3.2rem;
+  line-height: 4.8rem;
   border-radius: 100px;
+}
+
+.col-1 .btn {
+    color: hsl(31, 77%, 52%);
+}
+.col-2 .btn {
+    color: hsl(184, 100%, 22%);
+}
+.col-3 .btn {
+    color: hsl(179, 100%, 13%);
 }
