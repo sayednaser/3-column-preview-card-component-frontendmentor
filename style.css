@@ -1,0 +1,33 @@
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: hsla(0, 0%, 100%, 0.75);
+
+  background-color: hsl(0, 0%, 95%);
+}
+
+.u-margin-big {
+}
+.u-margin-medium {
+}
+.u-margin-small {
+}
