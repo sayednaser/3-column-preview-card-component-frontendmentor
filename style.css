@@ -31,3 +31,33 @@ body {
 }
 .u-margin-small {
 }
+
+.col-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.col-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.col-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card-col-heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+
+  background-color: hsl(0, 0%, 95%);
+  width: fit-content;
+  padding: 1rem 4rem;
+  border-radius: 100px;
+}
